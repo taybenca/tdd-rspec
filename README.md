@@ -12,3 +12,11 @@ rspec --init
       │   └── hello.rb
       └── spec
           └── hello_spec.rb
+
+
+RED - GREEN - REFACTOR
+
+- Step 1: Write a failing test (RED)
+- Step 2: Write the simplest code possible to pass the test (GREEN)
+- Step 3: Clean up (REFACTOR)
+- Step 4: Repeat until all expectations have been satisfied
