@@ -16,4 +16,11 @@ describe Counter do
     expect(result).to eq "Counted to 7 so far."
   end
 
+  it "testing with negative numbers" do
+    count = Counter.new
+    count.add(-3)
+    count.add(-1)
+    result = count.report()
+    expect(result).to eq "Counted to -4 so far."
+  end
 end
