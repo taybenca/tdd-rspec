@@ -11,8 +11,9 @@ describe Counter do
   it "until 5" do
     count = Counter.new
     count.add(5)
+    count.add(2)
     result = count.report()
-    expect(result).to eq "Counted to 5 so far."
+    expect(result).to eq "Counted to 7 so far."
   end
 
 end
